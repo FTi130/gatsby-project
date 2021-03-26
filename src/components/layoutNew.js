@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { rhythm } from '../utils/typography'
 import Sidebar from './Sidebar'
-import Header from './Header'
+import Header from './header'
 
 const Container = styled('div')(({ breakpoint }) => `
   margin-left: auto;

@@ -4,7 +4,7 @@ import React from "react"
 import { rhythm } from '../utils/typography'
 import * as colors from '../../colors'
 
-import {FaGithub, FaLinkedin, FaTelegram} from 'react-icons/fa'
+import {FaBehance, FaFacebook, FaGithub, FaLinkedin, FaTelegram} from 'react-icons/fa'
 
 import styled from '@emotion/styled'
 import { css } from '@emotion/css'
@@ -89,6 +89,9 @@ const Header = ({ postKind }) =>
                 <a href="https://t.me/userpav" target="_blank" rel="noopener"><FaTelegram/></a>
                 <a href="https://www.linkedin.com/in/pavel-popov-472450156/" target="_blank" rel="noopener"><FaLinkedin/></a>
                 <a href="https://github.com/FTi130" target="_blank" rel="noopener"><FaGithub/></a>
+                <a href="https://www.behance.net/userpav" target="_blank" rel="noopener"><FaBehance/></a>
+                <a href="https://www.facebook.com/userpav" target="_blank" rel="noopener"><FaFacebook/></a>
+
             </SocialLinksArea>
         </Outer>
     </Headroom>

@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import { css } from '@emotion/css'
 import profilePic from '../images/profilePic.jpg'
 import { rhythm } from '../utils/typography'
-import Layout from '../components/Layoutnew'
+import Layout from '../components/layoutnew'
 import SEO from "../components/seo";
 
 
@@ -187,27 +187,26 @@ const Resume = (props) => {
                         <div className="jobTitle"><span className="em">Python developer, VFX studio pipeline enhancing, Sila Sveta, Moscow, Russia</span>&nbsp;–&nbsp;
                             <span>September 2019 - March 2020</span></div>
                         <ul>
-                            <li>Designed and developed <a href="/p/tera-transport/" target="_blank" rel="noopener">exploratory
-                                data</a> <a href="/p/street-flow-zh/" target="_blank" rel="noopener">visualization
-                                tools</a> for the analysis of people mobility in various cities/countries around the
-                                world.
+                            <li>Designed and developed a design version control system for internal usage. The established pipeline allowed a
+                                communications and tracking using Telegram Bots and <a href="https://www.ftrack.com/en/"
+                                                                                       target="_blank" rel="noopener">FTrack </a> platform.
+                                <i>Created for internal usage in a Company</i>
                             </li>
-                            <li>Designed and developed <a href="/p/sg-trains/" target="_blank" rel="noopener">interactive
-                                dashboards and data visualizations</a> for real-time transportation network monitoring,
-                                incident analysis, transportation planning in Singapore.
+                            <li>
+                                Developed 'Sequence Checker' - a standalone application for checking videos and sequences
+                                for bad frames (crosses, bad lightening) after lowres rendering process before final render.
+                                <i> Final version is for internal usage in a Company</i>
+
                             </li>
-                            <li>Devised a system architecture for <a href="/talks/2018-12-20-gflowiz/" target="_blank"
-                                                                     rel="noopener">scalable OD-data
-                                visualization</a> to support interactive data analysis across billions of rows.
+                            <li>
+                                Developed a <a href="https://github.com/FTi130/ffprobe-TT-Checker"
+                                               target="_blank" rel="noopener">standalone application</a> that represents GUI for <a href="https://ffmpeg.org/"
+                                                                                              target="_blank" rel="noopener">ffpmeg</a> software.
+
                             </li>
-                            <li>Technical and strategic leadership in a team of several developers.</li>
-                            <li>Published <a href="/p/flowmap.gl/" target="_blank" rel="noopener">Flowmap.gl</a>, an
-                                open-source library for drawing flow lines representing movement on geographic maps in
-                                WebGL.
-                            </li>
-                            <li>Developed <a href="/p/flowmap.blue/" target="_blank" rel="noopener">Flowmap.blue</a>, an
-                                open-source tool for geographic flow map visualization from spreadsheets published in
-                                Google Sheets.
+                            <li>
+                                Developed <a href="https://github.com/FTi130/AppOpener"
+                                             target="_blank" rel="noopener">shortlink</a> application opener for managing opened applications while working on Windows.
                             </li>
                         </ul>
                         <br/>
@@ -242,14 +241,14 @@ const Resume = (props) => {
                                         Developed solutions for RCC stand and participated in assembling of a structure.
                                         The project is nominated for<a
                                         href="https://www.xaver-award.ch/projekt/rcc-pavillon-an-der-innoprom-2017-yekaterinburg-ru/"
-                                        target="_blank" rel="noopener"> XAVER Award 2018</a>.
+                                        target="_blank" rel="noopener"> XAVER Award 2018</a>
                                     </li>
                                     <li>Worked on a <a href="http://www.designmarkgroup.pt/work.php?cd_work=25"
                                                        target="_blank" rel="noopener">several architectural
-                                        projects</a> in a Lisbon office.
+                                        projects</a> in a Lisbon office
                                     </li>
                                     <li>Assisted in generative design approach implementation in studio. Created a
-                                        parametric models of interior furniture for one of the projects.
+                                        parametric models of interior furniture for one of the projects
                                     </li>
                                 </ul>
                                 <br/>
