@@ -5,6 +5,7 @@ import { css } from '@emotion/css'
 import profilePic from '../images/profilePic.jpg'
 import { rhythm } from '../utils/typography'
 import Layout from '../components/Layoutnew'
+import SEO from "../components/seo";
 
 
 
@@ -113,6 +114,7 @@ const Go = ({ to, children }) =>
 const Resume = (props) => {
     return (
         <Layout location={props.location}>
+            <SEO title="Resume" />
             <CV>
                 <Header>
                     <Link to="/">
@@ -146,8 +148,12 @@ const Resume = (props) => {
                     <h2>Education</h2>
 
                     <div className="block"><span className="em">Currently completing MSc Computer Science, Politecnico di Milano, Italy, expected graduation: 2021</span><br/><span
-                        className="flabel">Research topics:</span> IoT in Smart Cities and Industry 4.0, Swarm
-                        Intelligence, Multi-agent systems, Computational and Generative Design<br/><span
+                        className="flabel">Research topics:</span> Computational and Generative Design,
+                        Swarm Intelligence,
+                        Multi-agent systems,
+                        IoT in Smart Cities and Industry 4.0
+                        <br/>
+                        <span
                             className="flabel">Expected research topic for a Master Thesis: </span> development and
                             implementation of<a href="https://en.wikipedia.org/wiki/Vehicle-to-everything"
                                                 target="_blank" rel="noopener"> V2X technologies</a>.<br/><span
@@ -163,15 +169,17 @@ const Resume = (props) => {
                             movement of people and vehicles between locations and represent data about usage of a space space.
                             Developed <a
                                 href="http://www.henn.com/de/projects/industry-urban-design/bmw-fiz-future-hybridgebaeude"
-                                target="_blank" rel="noopener">a project</a> is initially a part of the project by HENN
+                                target="_blank" rel="noopener">project</a> is initially a part a work completed by HENN
                             Architekten which represent a re-design of an existing complex of buildings located in the
-                            north of Munich, Germany. Initial layout presented by an architectural studio has had
-                            several weaknesses in using spaces and area. The simulation model I created with AnyLogic
+                            north of Munich. Initial layout presented by an architectural studio has had
+                            several weaknesses in using spaces. The simulation model, which I created using AnyLogic
                             modelling package together with project management team from <a href="https://www.oecc.de/"
                                                                                             target="_blank"
                                                                                             rel="noopener">Ossenberg
-                                Engels Concept&Consulting</a>, improved traffic situation and increased usage of
-                            available spaces within the territory of the research and innovation centre .</div>
+                                Engels Concept&Consulting</a> improved traffic situation and improved the usage of
+                            available spaces within the territory of the research and innovation centre. Also it could
+                            be used as a digital twin of a building after addition of some real time data.
+                    </div>
 
                     <h2>Experience</h2>
 
@@ -206,13 +214,14 @@ const Resume = (props) => {
                             <div className="jobTitle"><span className="em">Simulation Modelling and Data Visualization Engineer, OECC, Munich, Germany</span>&nbsp;–&nbsp;
                                 <span>October 2018 - March 2019</span></div>
                             <ul>
-                                <li>
-                                    Developed several simulation models for OECC customers, e.g. evacuation model for
-                                    Siemens HQ building, .
-                                </li>
                                 <li>Developed an visualization of the area usage in a for a BMW FIZ project. The initial
                                     data consisted of multiple Excel tables with a big amount of unstructured data. The
-                                    visualisation was created for internal usage and using Rhino+Grasshopper Environment
+                                    visualisation was created for internal usage with Rhino+Grasshopper environment
+                                </li>
+                                <li>
+                                    Participated in CTF competition in <a href="https://ructf.org/2017/index/"
+                                                                          target="_blank" rel="noopener">Moscow</a> and <a
+                                    href="https://github.com/SPbCTF" target="_blank" rel="noopener">St.Petersburg</a>.
                                 </li>
                                 <li>Developed a multiagent simulation model for BMW FIZ reconstruction based on HENN
                                     Architekten layout
@@ -225,17 +234,17 @@ const Resume = (props) => {
                                 <ul>
                                     <li> Architect assistant on a <a href="https://vimeo.com/238913040" target="_blank"
                                                                      rel="noopener">project for Russian Copper Company
-                                        stand on Innoprom 2017</a>. The main feature in the project of three-story
-                                        structure is Arduino controlled kinetic facade. The structure was designed using
-                                        Unity Engine and controlled by >3000 servomotors and tens of Arduino boards.<br/>
+                                        stand on Innoprom 2017</a>. The main feature of a three-story
+                                        structure project is Arduino-controlled kinetic facade. The structure was controlled using
+                                        Unity engine, ~3000 servomotors and tens of Arduino boards.<br/>
                                     </li>
                                     <li>
                                         Developed solutions for RCC stand and participated in assembling of a structure.
                                         The project is nominated for<a
                                         href="https://www.xaver-award.ch/projekt/rcc-pavillon-an-der-innoprom-2017-yekaterinburg-ru/"
-                                        target="_blank" rel="noopener">for XAVER Award 2018</a>.
+                                        target="_blank" rel="noopener"> XAVER Award 2018</a>.
                                     </li>
-                                    <li>Worked on a <a href="https://designmark.dops.digital/cases-arc.htm"
+                                    <li>Worked on a <a href="http://www.designmarkgroup.pt/work.php?cd_work=25"
                                                        target="_blank" rel="noopener">several architectural
                                         projects</a> in a Lisbon office.
                                     </li>
@@ -244,7 +253,8 @@ const Resume = (props) => {
                                     </li>
                                 </ul>
                                 <br/>
-                                    <div className="jobTitle"><span className="em">Data Visualisation Intern, Strategic Consulting Department, Knight Frank, St.Petersburg, Russia</span>&nbsp;–&nbsp;
+                                    <div className="jobTitle">
+                                        <span className="em">Data Visualisation Intern, Strategic Consulting Department, Knight Frank, St.Petersburg, Russia</span>&nbsp;–&nbsp;
                                         <span>October 2016 - March 2017</span></div>
                                     <ul>
                                         <li>Developed traffic visualisation project using PedSim and Elk plugins of
@@ -255,7 +265,8 @@ const Resume = (props) => {
                                     </ul>
                                     <br/>
                                         <div className="jobTitle">
-                                            <span>Intern, EXPO Center, Ekaterinburg, Russia</span>&nbsp;–&nbsp;<span>June 2016 - August 2016</span>
+                                            <span className="em">Intern, EXPO Center, Ekaterinburg, Russia</span>&nbsp;–&nbsp;
+                                            <span>June 2016 - August 2016</span>
                                         </div>
                                         <ul>
                                             <li>Intern within EXPO management team.</li>
@@ -264,17 +275,16 @@ const Resume = (props) => {
                     </div>
                     <h2>Some Computer Skills</h2>
                     <div className="block">
-                        <span className="em">Languages frequently in use: </span>Python, Java, C++, JavaScript,
-                        Matlab<br/>
-                        <span className="em">Languages to improve: </span> Dart, JavaScript, C<br/>
-                        <span className="em">Security and Network:</span>Wireshark, LionSec products, BurpSuite,
+                        <span className="em">Languages frequently in use: </span>Python, Java, C++, JavaScript<br/>
+                        <span className="em">Languages to improve: </span> Dart, C<br/>
+                        <span className="em">Security and Network:</span> Wireshark, LionSec products, BurpSuite,
                         pwntools <br/>
-                        <span className="em">Modelling&Visualization:</span> Rhinoceros+Grasshopper, Inventor, AnyLogic,
+                        <span className="em">Modelling&Visualization:</span> Rhinoceros+Grasshopper, Inventor, Blender, AnyLogic,
                         AutoCAD, Unity, UnrealEngine+Twinmotion, Fologram<br/>
                         <span className="em">GIS:</span> ArcGIS, QGIS<br/>
                         <span className="em">Databases:</span> PostgreSQL, MySQL, MariaDB<br/>
-                        <span className="em">Photogrammetry:</span>AliceVision Meshroom, Agisoft Metashape<br/>
-                        <span className="em">Frameworks:</span> Arduino, Flutter<br/>
+                        <span className="em">Photogrammetry:</span> AliceVision Meshroom, Agisoft Metashape<br/>
+                        <span className="em">Frameworks:</span> Arduino, Flutter, GatsbyJS<br/>
                         <span className="em">UI Design:</span> Figma, Photoshop<br/>
                     </div>
                     <h2>Additional Education</h2>
@@ -325,20 +335,18 @@ const Resume = (props) => {
                         </ul>
                     </div>
 
-                    <h2>Awards</h2>
+                    <h2>Awards and Other Activities</h2>
                     <div className="block notitles">
                         <ul>
                             <li>Best delegate on Eurasian Economic Union Model held at HSE University in Russia.
-                                Developed a model of transportation flows within Russian part of Belt and Road
-                                Initiative. <a href="https://we.hse.ru/news/213147435.html" target="_blank"
+                                Developed a model of transportation flows within Russian part of 'Belt and Road
+                                Initiative'. <a href="https://we.hse.ru/news/213147435.html" target="_blank"
                                                rel="noopener">Publication available in Russian</a>.
                             </li>
-                            <li>Shortlisted in the “Interactive Visualization” category of the <a
-                                href="https://iibawards.herokuapp.com/showcase/552-public-value-atlas" target="_blank"
-                                rel="noopener">Information is Beautiful Awards</a> for <a href="/p/gemeinwohl"
-                                                                                          target="_blank"
-                                                                                          rel="noopener">Gemeinwohl</a> in
-                                2014.
+                            <li>
+                                Participated in CTF competition in <a href="https://ructf.org/2017/index/"
+                                                                      target="_blank" rel="noopener">Moscow</a> and <a
+                                href="https://github.com/SPbCTF" target="_blank" rel="noopener">St.Petersburg</a>.
                             </li>
                         </ul>
                     </div>
@@ -362,8 +370,13 @@ const Resume = (props) => {
                         </ul>
                     </div>
                     <h2>Hobbies</h2>
-                    <div className="block">
-                        ss
+                    <div className="block notitles">
+                        <ul>
+                            <li>Gliding (I am a <a href="http://www.akaflieg.vo.tum.de/de/" target="_blank" rel="noopener">member
+                        of Akaflieg Munchen</a>)</li>
+                            <li><a href="https://www.behance.net/userpav" target="_blank" rel="noopener">Design & visualization</a> </li>
+                            <li>Traveling</li>
+                        </ul>
                     </div>
                 </div>
 

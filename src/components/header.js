@@ -4,7 +4,7 @@ import React from "react"
 import { rhythm } from '../utils/typography'
 import * as colors from '../../colors'
 
-import {FaGithub, FaLinkedin, FaTelegram, FaTwitter} from 'react-icons/fa'
+import {FaGithub, FaLinkedin, FaTelegram} from 'react-icons/fa'
 
 import styled from '@emotion/styled'
 import { css } from '@emotion/css'

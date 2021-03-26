@@ -74,9 +74,9 @@ const Layout = (props) => {
     } = props
     const path = location.pathname
     const postKind = (
-        path.startsWith('/') ? 'talks' :
-            path.startsWith('/') ? 'blog' :
-                path.startsWith('/') ? 'project' : undefined
+        path.startsWith('/') ? 'talks' : //talks
+            path.startsWith('/') ? 'blog' : //blog
+                path.startsWith('/') ? 'project' : undefined //project
     )
     let __PATH_PREFIX__;
     const rootPath = `${__PATH_PREFIX__}/`
