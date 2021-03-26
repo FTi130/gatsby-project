@@ -72,8 +72,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -81,7 +81,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: Helvetica Neue, serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
