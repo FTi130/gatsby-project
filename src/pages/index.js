@@ -22,7 +22,7 @@ const IndexPage = () => (
         You can find a more detailed description of my story in the <Link to="/resume/">Resume</Link> <br /><br />
 
 
-        I am now participating as a System Engineer in a V2X system design project of a joint venture of Vodafone, Akka Technologies and Volkswagen.
+        I am now participating as a System Engineer in a V2X system design project of a j Vodafone, Akka Technologies and Volkswagen consortiumga.
         The project involves several stages and my part lies in a field of Vulnerable Road Users Protection and Collision Prediction.
         <br /><br />
         Also there is ongoing academic research about sustainable transportation system design in Cortina - Colalzo valley,
