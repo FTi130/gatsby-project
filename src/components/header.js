@@ -76,7 +76,7 @@ const Header = ({ postKind }) =>
         <Outer>
             {/*<Logo/>*/}
             <Link
-                to="/page-2/"
+                to="/page-2/" // /projects/
                 className={postKind === 'project' ? activeLinkCss : undefined}
                 activeClassName={activeLinkCss}>
                 Projects

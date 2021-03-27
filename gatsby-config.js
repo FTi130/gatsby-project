@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-page-creator",
       options: {
-        path: `${__dirname}/src/pages/p`,
+        path: `${__dirname}/src/pages/projects`,
       },
     },
     `gatsby-plugin-mdx`,

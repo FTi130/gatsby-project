@@ -188,7 +188,7 @@ const Resume = (props) => {
                             <span>September 2019 - March 2020</span></div>
                         <ul>
                             <li>Designed and developed a design version control system for internal usage. The established pipeline allowed a
-                                communications and tracking using Telegram Bots and <a href="https://www.ftrack.com/en/"
+                                communications and tracking using Telegram API and <a href="https://www.ftrack.com/en/"
                                                                                        target="_blank" rel="noopener">FTrack </a> platform.
                                 <i>Created for internal usage in a Company</i>
                             </li>
@@ -239,9 +239,9 @@ const Resume = (props) => {
                             </li>
                             <li>
                                 Developed solutions for RCC stand and participated in assembling of a structure.
-                                The project is nominated for<a
+                                The project is nominated for <a
                                 href="https://www.xaver-award.ch/projekt/rcc-pavillon-an-der-innoprom-2017-yekaterinburg-ru/"
-                                target="_blank" rel="noopener"> XAVER Award 2018</a>
+                                target="_blank" rel="noopener">XAVER Award 2018</a>
                             </li>
                             <li>Worked on a <a href="http://www.designmarkgroup.pt/work.php?cd_work=25"
                                                target="_blank" rel="noopener">several architectural
@@ -312,7 +312,9 @@ const Resume = (props) => {
                     <h2>Workshops</h2>
                     <div className="block notitles">
                         <ul>
-                            <li><span className="pubTitle">Grasshopper Structural Form finding with BIG: Structural design and proposal for Oscar von Miller Ring traffic intersection using BIG Engineering Grasshopper tools. The result of a three-day work with can be found <a
+                            <li><span className="pubTitle">Grasshopper Structural Form finding with BIG: Structural
+                                design and proposal for Oscar von Miller Ring traffic intersection using BIG Engineering
+                                Grasshopper tools. The result of a three-day work can be found <a
                                 href="https://www.facebook.com/userpav/posts/1938881479513778" target="_blank"
                                 rel="noopener"> on my Facebook</a>. </span>Held at <a
                                 href="https://www.oskarvonmillerforum.de/wir-ueber-uns/jahrbuch.html" target="_blank"
@@ -320,16 +322,6 @@ const Resume = (props) => {
                             </li>
                             <li><span className="pubTitle">Build a True Digital Twin Using the AnyLogic Material Handling Library</span> by
                                 Ben Schumann, 2020
-                            </li>
-                            <li><span className="pubTitle">UI development with Reagent in ClojureScript</span> at
-                                Clojure Meetup in Zurich, 2014
-                            </li>
-                            <li><span
-                                className="pubTitle">Women in science: Drawing with computer for schoolgirls</span> at
-                                University of Fribourg, 2011 and 2012
-                            </li>
-                            <li><span className="pubTitle">Programming and computer graphics for kids</span> at
-                                Kantonsschule Solothurn, 2012 and Gymnasium Brig, 2011
                             </li>
                         </ul>
                     </div>
