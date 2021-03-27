@@ -83,6 +83,7 @@ const Header = ({ postKind }) =>
             </Link>
             {/*<Link to="/" partiallyActive={true} activeClassName={activeLinkCss}>Home</Link>*/}
             <Link to="/resume/" activeClassName={activeLinkCss}>About</Link>
+            <Link to="/" activeClassName={activeLinkCss}>Main</Link>
             {/*<Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>*/}
             <div className="filler"/>
             <SocialLinksArea>

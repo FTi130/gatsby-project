@@ -10,8 +10,7 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Pavel" />
         <br />
-        <h1>Hi!</h1>
-        <h1>You are on a web source were I am structuring everything that I do professionally</h1>
+        <h1>You are on a web source were I am structuring everything I do professionally</h1>
 
 
         <p>Here I will describe mainly the activities in which I involved at the moment.<p/>
@@ -19,10 +18,10 @@ const IndexPage = () => (
             All the projects I have done before and after creation of this website are supposed to appear on a Projects page. But I can miss some of them, so don't hesitate to contact me
             at any time, if you have any question.
             <br />
-            You can find a more detailed description of my story in the <Link to="/">Resume</Link> <br /><br />
+            You can find a more detailed description of my story on the <Link to="/">Main </Link> page. <br /><br />
 
 
-            I am now participating as a System Engineer in a V2X system design project of a j Vodafone, Akka Technologies and Volkswagen consortiumga.
+            I am now participating as a System Engineer in a V2X system design project of a Vodafone, Akka Technologies and Volkswagen consortiumga.
             The project involves several stages and my part lies in a field of Vulnerable Road Users Protection and Collision Prediction.
             <br /><br />
             Also there is ongoing academic research about sustainable transportation system design in Cortina - Colalzo valley,
@@ -44,7 +43,7 @@ const IndexPage = () => (
             <br />
             In the meanwhile, I am playing CTFs, do some CGI, a bit of photogrammetry and assembling FPV drones.
             <br />
-            Luckily spend time in the Alps now living near Como lake and enjoying views and fresh air during  pandemic times.</p>
+            Luckily spend time in the Alps living near Como lake, enjoying views and fresh air during pandemic times.</p>
 
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, marginLeft: `0rem` }}>
             <Image />

@@ -296,7 +296,7 @@ const Resume = (props) => {
                             <li><span className="pubTitle"><a href="https://www.coursera.org/verify/WBEK65NKHYN3">Introduction to Self-Driving Cars</a></span> Coursera
                                 Platform, 2020
                             </li>
-                            <li><span className="pubTitle"><a href="https://www.coursera.org/verify/8JCENHH8T5P8">State Estimation and Localization for Self-DrivingCars</a></span> Coursera
+                            <li><span className="pubTitle"><a href="https://www.coursera.org/verify/8JCENHH8T5P8">State Estimation and Localization for Self-Driving Cars</a></span> Coursera
                                 Platform, 2020
                             </li>
                             <li><span className="pubTitle"><a href="https://www.coursera.org/verify/Z7XJ77TLUWNL">Motion Planning for Self-Driving Cars</a></span> Coursera
