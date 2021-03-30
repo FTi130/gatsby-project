@@ -109,7 +109,7 @@ const CV = styled('div')`
 `
 
 const Go = ({ to, children }) =>
-    <a href={to} target="_blank" rel="noopener">{children}</a>
+    <a href={to} target="_blank" rel="noopener noreferrer">{children}</a>
 
 const Resume = (props) => {
     return (
@@ -156,7 +156,7 @@ const Resume = (props) => {
                         <span
                             className="flabel">Expected research topic for a Master Thesis: </span> development and
                         implementation of<a href="https://en.wikipedia.org/wiki/Vehicle-to-everything"
-                                            target="_blank" rel="noopener"> V2X technologies</a>.<br/><span
+                                            target="_blank" rel="noopener noreferrer"> V2X technologies</a>.<br/><span
                             className="flabel">Summary:</span>Currently taking courses from Computer Science and
                         Management Engineering programs. Current course projects are related to Software
                         Engineering, Advanced Databases, Multiagent Planning, Computer Vision and Industrial
@@ -165,17 +165,17 @@ const Resume = (props) => {
                         className="flabel">Thesis title:</span> Application of Generative Design for BMW Research Center
                         reconstruction.<br/><span className="flabel">Summary:</span>Carried out an <a
                             href="https://elib.spbstu.ru/dl/3/2019/vr/vr19-1376.pdf/info" target="_blank"
-                            rel="noopener">in-depth study</a> of multiagent simulation model which can represent
+                            rel="noopener noreferrer">in-depth study</a> of multiagent simulation model which can represent
                         movement of people and vehicles between locations and represent data about usage of a space space.
                         Developed <a
                             href="http://www.henn.com/de/projects/industry-urban-design/bmw-fiz-future-hybridgebaeude"
-                            target="_blank" rel="noopener">project</a> is initially a part a work completed by HENN
+                            target="_blank" rel="noopener noreferrer">project</a> is initially a part a work completed by HENN
                         Architekten which represent a re-design of an existing complex of buildings located in the
                         north of Munich. Initial layout presented by an architectural studio has had
                         several weaknesses in using spaces. The simulation model, which I created using AnyLogic
                         modelling package together with project management team from <a href="https://www.oecc.de/"
                                                                                         target="_blank"
-                                                                                        rel="noopener">Ossenberg
+                                                                                        rel="noopener noreferrer">Ossenberg
                             Engels Concept&Consulting</a> improved traffic situation and improved the usage of
                         available spaces within the territory of the research and innovation centre. Also it could
                         be used as a digital twin of a building after addition of some real time data.
@@ -189,7 +189,7 @@ const Resume = (props) => {
                         <ul>
                             <li>Designed and developed a design version control system for internal usage. The established pipeline allowed a
                                 communications and tracking using Telegram API and <a href="https://www.ftrack.com/en/"
-                                                                                       target="_blank" rel="noopener">FTrack </a> platform.
+                                                                                       target="_blank" rel="noopener noreferrer">FTrack </a> platform.
                                 <i>Created for internal usage in a Company</i>
                             </li>
                             <li>
@@ -200,13 +200,13 @@ const Resume = (props) => {
                             </li>
                             <li>
                                 Developed a <a href="https://github.com/FTi130/ffprobe-TT-Checker"
-                                               target="_blank" rel="noopener">standalone application</a> that represents GUI for <a href="https://ffmpeg.org/"
+                                               target="_blank" rel="noopener noreferrer">standalone application</a> that represents GUI for <a href="https://ffmpeg.org/"
                                                                                                                                     target="_blank" rel="noopener">ffpmeg</a> software.
 
                             </li>
                             <li>
                                 Developed <a href="https://github.com/FTi130/AppOpener"
-                                             target="_blank" rel="noopener">shortlink</a> application opener for managing opened applications while working on Windows.
+                                             target="_blank" rel="noopener noreferrer">shortlink</a> application opener for managing opened applications while working on Windows.
                             </li>
                         </ul>
                         <br/>
@@ -219,8 +219,8 @@ const Resume = (props) => {
                             </li>
                             <li>
                                 Participated in CTF competition in <a href="https://ructf.org/2017/index/"
-                                                                      target="_blank" rel="noopener">Moscow</a> and <a
-                                href="https://github.com/SPbCTF" target="_blank" rel="noopener">St.Petersburg</a>.
+                                                                      target="_blank" rel="noopener noreferrer">Moscow</a> and <a
+                                href="https://github.com/SPbCTF" target="_blank" rel="noopener noreferrer">St.Petersburg</a>.
                             </li>
                             <li>Developed a multiagent simulation model for BMW FIZ reconstruction based on HENN
                                 Architekten layout
@@ -232,7 +232,7 @@ const Resume = (props) => {
                             <span>June 2017 - August 2018</span></div>
                         <ul>
                             <li> Architect assistant on a <a href="https://vimeo.com/238913040" target="_blank"
-                                                             rel="noopener">project for Russian Copper Company
+                                                             rel="noopener noreferrer">project for Russian Copper Company
                                 stand on Innoprom 2017</a>. The main feature of a three-story
                                 structure project is Arduino-controlled kinetic facade. The structure was controlled using
                                 Unity engine, ~3000 servomotors and tens of Arduino boards.<br/>
@@ -241,10 +241,10 @@ const Resume = (props) => {
                                 Developed solutions for RCC stand and participated in assembling of a structure.
                                 The project is nominated for <a
                                 href="https://www.xaver-award.ch/projekt/rcc-pavillon-an-der-innoprom-2017-yekaterinburg-ru/"
-                                target="_blank" rel="noopener">XAVER Award 2018</a>
+                                target="_blank" rel="noopener noreferrer">XAVER Award 2018</a>
                             </li>
                             <li>Worked on a <a href="http://www.designmarkgroup.pt/work.php?cd_work=25"
-                                               target="_blank" rel="noopener">several architectural
+                                               target="_blank" rel="noopener noreferrer">several architectural
                                 projects</a> in a Lisbon office
                             </li>
                             <li>Assisted in generative design approach implementation in studio. Created a
@@ -316,9 +316,9 @@ const Resume = (props) => {
                                 design and proposal for Oscar von Miller Ring traffic intersection using BIG Engineering
                                 Grasshopper tools. The result of a three-day work can be found <a
                                 href="https://www.facebook.com/userpav/posts/1938881479513778" target="_blank"
-                                rel="noopener"> on my Facebook</a>. </span>Held at <a
+                                rel="noopener noreferrer"> on my Facebook</a>. </span>Held at <a
                                 href="https://www.oskarvonmillerforum.de/wir-ueber-uns/jahrbuch.html" target="_blank"
-                                rel="noopener">Oskar von Miller Forum</a>, Munich, 2018
+                                rel="noopener noreferrer">Oskar von Miller Forum</a>, Munich, 2018
                             </li>
                             <li><span className="pubTitle">Build a True Digital Twin Using the AnyLogic Material Handling Library</span> by
                                 Ben Schumann, 2020
@@ -332,12 +332,12 @@ const Resume = (props) => {
                             <li>Best delegate on Eurasian Economic Union Model held at HSE University in Russia.
                                 Developed a model of transportation flows within Russian part of 'Belt and Road
                                 Initiative'. <a href="https://we.hse.ru/news/213147435.html" target="_blank"
-                                                rel="noopener">Publication available in Russian</a>.
+                                                rel="noopener noreferrer">Publication available in Russian</a>.
                             </li>
                             <li>
                                 Participated in CTF competition in <a href="https://ructf.org/2017/index/"
-                                                                      target="_blank" rel="noopener">Moscow</a> and <a
-                                href="https://github.com/SPbCTF" target="_blank" rel="noopener">St.Petersburg</a>.
+                                                                      target="_blank" rel="noopener noreferrer">Moscow</a> and <a
+                                href="https://github.com/SPbCTF" target="_blank" rel="noopener noreferrer">St.Petersburg</a>.
                             </li>
                         </ul>
                     </div>
@@ -346,8 +346,8 @@ const Resume = (props) => {
                         <ul>
                             <li>
                                 Participated in CTF competition in <a href="https://ructf.org/2017/index/"
-                                                                      target="_blank" rel="noopener">Moscow</a> and <a
-                                href="https://github.com/SPbCTF" target="_blank" rel="noopener">St.Petersburg</a>.
+                                                                      target="_blank" rel="noopener noreferrer">Moscow</a> and <a
+                                href="https://github.com/SPbCTF" target="_blank" rel="noopener noreferrer">St.Petersburg</a>.
                             </li>
                         </ul>
                     </div>
@@ -363,9 +363,9 @@ const Resume = (props) => {
                     <h2>Hobbies</h2>
                     <div className="block notitles">
                         <ul>
-                            <li>Gliding (I am a <a href="http://www.akaflieg.vo.tum.de/de/" target="_blank" rel="noopener">member
+                            <li>Gliding (I am a <a href="http://www.akaflieg.vo.tum.de/de/" target="_blank" rel="noopener noreferrer">member
                                 of Akaflieg Munchen</a>)</li>
-                            <li><a href="https://www.behance.net/userpav" target="_blank" rel="noopener">Design & visualization</a> </li>
+                            <li><a href="https://www.behance.net/userpav" target="_blank" rel="noopener noreferrer">Design & visualization</a> </li>
                             <li>Traveling</li>
                         </ul>
                     </div>
