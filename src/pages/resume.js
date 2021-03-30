@@ -28,7 +28,7 @@ const IndexPage = () => (
             where the 2026 Winter Olympics will be held. I am involved in this project as a part of PoliMi research group
             together with Engineers from <a
                 href="https://www.systematica.net/people/diego-deponte/"
-                target="_blank" rel="noopener"> Systematica </a> and Daimler.
+                target="_blank" rel="noopener noreferrer"> Systematica </a> and Daimler.
             Our group is focusing on a MaaS System application for a hydrogen vehicles implementation which suppose to connect remote Alpine communities between themselves and the city of Milan during
             the Games and also scale the system down for the everyday usage after the event.
 
@@ -36,7 +36,7 @@ const IndexPage = () => (
             I am also opened for any project where Grasshopper is used for any sake.
             Also contact me if you can help to finish the OpenCV plugin for <a
                 href="https://www.food4rhino.com/"
-                target="_blank" rel="noopener"> Food4Rhino</a>.
+                target="_blank" rel="noopener noreferrerff"> Food4Rhino</a>.
 
 
 
